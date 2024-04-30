@@ -1,0 +1,29 @@
+﻿@model CMV.Models.Model01
+    @using CMV.Models;
+
+
+<h2>Action01</h2>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+
+<body>
+    <p> Choisisser une personne</p>
+    <form method="post" action="/Exemple/Action02"/>
+
+    <select name="personneId">
+        <option value="1"> Sami Bennoui</option>
+        <option value="2">Raouf Benyahya</option>
+        <option value="3"> Mebani Abedrahman</option>
+        <option value="4"> hassen Goumni</option>
+        <option value="5" selected="selected"> Cristiano Ronaldo</option>
+        <option value="6"> Kaka Recardo</option>
+
+    </select>
+    <input name="valider" type="submit" value="Envoyer"/>
+
+</body>
+
+</html>
+
